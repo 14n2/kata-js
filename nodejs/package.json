@@ -1,0 +1,7 @@
+{
+  "name": "Code-Quality",
+  "version": "1.0.0",
+  "dependencies": {
+    "formidable": "^1.2.2"
+  }
+}

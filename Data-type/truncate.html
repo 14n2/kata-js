@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Truncate</title>
+</head>
+<body>
+<script>
+    "use strict";
+
+    function truncate(str, maxlength) {
+        if (!str) {
+            return str;
+        }
+        if (str.length > maxlength) {
+            return str.slice(0,  maxlength - 1) + "…";
+        } else {
+            return str;
+        }
+    }
+
+    alert(truncate("abcdefghijklmnopqrstuvwxyz", 10));
+    alert(truncate("hello world", 20));
+</script>
+</body>
+</html>
